@@ -38,9 +38,10 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 ### Lección 3: Condicionales if-else (8-10 minutos)
 
 - **Descripción**: Decisiones simples (edad, notas, comparaciones).
-- **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
+- **Enlace**: [Ver la lección](#) 
 - **Herramienta**: OnlineGDB
-- **Práctica**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/your-gdb-id)
+- **Práctica 1**: [Abrir ejercicio en OnlineGDB]((https://onlinegdb.com/gcccB85wj))
+- **Práctica 2**: [Abrir ejercicio en OnlineGDB]((https://onlinegdb.com/WGh0Y9tO6))
 
 ---
 
@@ -49,7 +50,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 - **Descripción**: Repetición de tareas, ejemplos sencillos (contadores, tablas).
 - **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
 - **Herramienta**: Replit
-- **Práctica**: [Abrir ejercicio en Replit](https://replit.com/@your-lesson4)
+- **Práctica 3**: [Abrir ejercicio en OnlineGDB](https://replit.com/@your-lesson4)
+- **Práctica 2**: [Abrir ejercicio en OnlineGDB](https://replit.com/@your-lesson4)
 
 ---
 
