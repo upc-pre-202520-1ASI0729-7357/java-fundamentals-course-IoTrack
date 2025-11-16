@@ -48,8 +48,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 ### Lección 4: Bucles for y while (8-10 minutos)
 
 - **Descripción**: Repetición de tareas, ejemplos sencillos (contadores, tablas).
-- **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
-- **Herramienta**: Replit
+- **Enlace**: [Ver la lección](https://youtu.be/tAqAi_YPNNQ)
+- **Herramienta**: OnlineGDB
 - **Práctica 3**: [Abrir ejercicio en OnlineGDB](https://replit.com/@your-lesson4)
 - **Práctica 2**: [Abrir ejercicio en OnlineGDB](https://replit.com/@your-lesson4)
 
