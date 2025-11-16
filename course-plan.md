@@ -40,8 +40,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 - **Descripción**: Decisiones simples (edad, notas, comparaciones).
 - **Enlace**: [Ver la lección](https://youtu.be/8mKiJlaEu2Y) 
 - **Herramienta**: OnlineGDB
-- **Práctica 1**: [Abrir ejercicio en OnlineGDB]([(https://onlinegdb.com/gcccB85wj)](https://onlinegdb.com/ueTIGCl1u_))
-- **Práctica 2**: [Abrir ejercicio en OnlineGDB]([(https://onlinegdb.com/WGh0Y9tO6)](https://onlinegdb.com/WGh0Y9tO6))
+- **Práctica 1**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/ueTIGCl1u_)
+- **Práctica 2**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/WGh0Y9tO6)
 
 ---
 
