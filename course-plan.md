@@ -56,7 +56,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 ### Lección 5: Métodos simples (8-10 minutos)
 
 - **Descripción**: Qué es un método, cómo usar parámetros y retornar valores.
-- **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
+- **Enlace**: [Ver la lección](https://youtu.be/wYJ4S2fK_eQ) *(Pendiente de subir)*
 - **Herramienta**: JDoodle
 - **Práctica**: [Abrir ejercicio en JDoodle](https://jdoodle.com/execute-java-online/your-lesson5)
 
@@ -64,10 +64,10 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 ### Lección 6: Introducción a la POO: clases y objetos (10-12 minutos)
 
-- **Descripción**: Crear clase "Estudiante" o "Mascota" con atributos y métodos.
-- **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
-- **Herramienta**: Replit
-- **Práctica**: [Abrir ejercicio en Replit](https://replit.com/@your-lesson6)
+- **Descripción**: Crear clase "Perro" con atributos y métodos.
+- **Enlace**: [Ver la lección](https://youtu.be/wYJ4S2fK_eQ) *(Pendiente de subir)*
+- **Herramienta**: JDoodle
+- **Práctica**: [Abrir ejercicio en Replit](https://jdoodle.com/execute-java-online/your-lesson5)
 
 ---
 
