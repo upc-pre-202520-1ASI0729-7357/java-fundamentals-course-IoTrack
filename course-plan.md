@@ -50,8 +50,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 - **Descripción**: Repetición de tareas, ejemplos sencillos (contadores, tablas).
 - **Enlace**: [Ver la lección](https://youtu.be/tAqAi_YPNNQ)
 - **Herramienta**: OnlineGDB
-- **Práctica 3**: [Abrir ejercicio en OnlineGDB](https://replit.com/@your-lesson4)
-- **Práctica 2**: [Abrir ejercicio en OnlineGDB](https://replit.com/@your-lesson4)
+- **Práctica 3**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/y7jUNF7w2)
+- **Práctica 2**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/_4A2szq3Be)
 
 ---
 
