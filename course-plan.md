@@ -18,18 +18,20 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 ### Lección 1: Introducción y "Hola Mundo" en Java (5-7 minutos)
 
 - **Descripción**: Qué es programar, qué es Java, cómo funciona un programa, imprimir en consola.
-- **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
-- **Herramienta**: Replit
-- **Práctica**: [Abrir ejercicio en Replit](https://replit.com/@your-starter-java)
+- **Enlace**: [Ver la lección](https://youtu.be/Sw4tqODGiXg)
+- **Herramienta**: OnlineGDB
+- **Práctica**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/q6c5CbvGq)
 
 ---
 
 ### Lección 2: Variables y tipos de datos (8-10 minutos)
 
 - **Descripción**: `int`, `double`, `String`, concatenación, operaciones básicas.
-- **Enlace**: [Ver la lección](#) *(Pendiente de subir)*
-- **Herramienta**: JDoodle
-- **Práctica**: [Abrir ejercicio en JDoodle](https://jdoodle.com/execute-java-online/your-id)
+- **Enlace**: [Ver la lección](https://youtu.be/caQDeIuK7xk)
+- **Herramienta**: OnlineGDB
+- **Práctica 1**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/47U9TBoOg)
+- **Práctica 2**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/IvxnrNBlQ)
+- **Práctica 3**: [Abrir ejercicio en OnlineGDB](https://onlinegdb.com/Ef-1O0fv6)
 
 ---
 
@@ -86,8 +88,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 | Número de lección | Actividad | Herramienta | Empezar a programar |
 |-------------------|-----------|-------------|---------------------|
-| 1 | Hola mundo | Replit | [Replit](https://replit.com/@iotrack-lesson1) |
-| 2 | Variables y tipos de datos | JDoodle | [JDoodle](https://jdoodle.com/execute-java-online/iotrack-lesson2) |
+| 1 | Hola mundo | OnlineGDB | [OnlineGDB](https://www.onlinegdb.com/) |
+| 2 | Variables y tipos de datos | OnlineGDB | [OnlineGDB](https://www.onlinegdb.com/) |
 | 3 | Condicionales if-else | OnlineGDB | [OnlineGDB](https://onlinegdb.com/iotrack-lesson3) |
 | 4 | Bucles for y while | Replit | [Replit](https://replit.com/@iotrack-lesson4) |
 | 5 | Métodos simples | JDoodle | [JDoodle](https://jdoodle.com/execute-java-online/iotrack-lesson5) |
