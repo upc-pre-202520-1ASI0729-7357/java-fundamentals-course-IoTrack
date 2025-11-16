@@ -53,21 +53,21 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 
 ---
 
-### Lección 5: Métodos simples (8-10 minutos)
+### Lección 5: Métodos simples (10-15 minutos)
 
 - **Descripción**: Qué es un método, cómo usar parámetros y retornar valores.
 - **Enlace**: [Ver la lección](https://youtu.be/wYJ4S2fK_eQ) *(Pendiente de subir)*
 - **Herramienta**: JDoodle
-- **Práctica**: [Abrir ejercicio en JDoodle](https://jdoodle.com/execute-java-online/your-lesson5)
+- **Práctica**: [Abrir ejercicio en JDoodle](https://www.jdoodle.com/online-java-compiler)
 
 ---
 
-### Lección 6: Introducción a la POO: clases y objetos (10-12 minutos)
+### Lección 6: Introducción a la POO: clases y objetos (10-5 minutos)
 
 - **Descripción**: Crear clase "Perro" con atributos y métodos.
 - **Enlace**: [Ver la lección](https://youtu.be/wYJ4S2fK_eQ) *(Pendiente de subir)*
 - **Herramienta**: JDoodle
-- **Práctica**: [Abrir ejercicio en Replit](https://jdoodle.com/execute-java-online/your-lesson5)
+- **Práctica**: [Abrir ejercicio en Replit](https://www.jdoodle.com/online-java-compiler)
 
 ---
 
@@ -92,8 +92,8 @@ Este curso de 1 hora introduce a estudiantes de secundaria a los fundamentos de 
 | 2 | Variables y tipos de datos | OnlineGDB | [OnlineGDB](https://www.onlinegdb.com/) |
 | 3 | Condicionales if-else | OnlineGDB | [OnlineGDB](https://onlinegdb.com/iotrack-lesson3) |
 | 4 | Bucles for y while | Replit | [Replit](https://replit.com/@iotrack-lesson4) |
-| 5 | Métodos simples | JDoodle | [JDoodle](https://jdoodle.com/execute-java-online/iotrack-lesson5) |
-| 6 | Clases y objetos | Replit | [Replit](https://replit.com/@iotrack-lesson6) |
+| 5 | Métodos simples | JDoodle | [JDoodle](https://www.jdoodle.com/online-java-compiler) |
+| 6 | Clases y objetos | Replit | [Replit](https://www.jdoodle.com/online-java-compiler) |
 | 7 | Proyecto final POO | Replit | [Replit](https://replit.com/@iotrack-lesson7) |
 
 ### Material complementario:
