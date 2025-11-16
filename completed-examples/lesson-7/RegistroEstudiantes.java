@@ -4,6 +4,7 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class RegistroEstudiantes {
     public static void main(String[] args) {
@@ -19,33 +20,39 @@ public class RegistroEstudiantes {
         while (continuar) {
             mostrarMenu();
             System.out.print("Selecciona una opcion: ");
-            int opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar buffer
+            
+            try {
+                int opcion = scanner.nextInt();
+                scanner.nextLine(); // Limpiar buffer
 
-            switch (opcion) {
-                case 1:
-                    registrarEstudiante(scanner, listaEstudiantes);
-                    break;
+                switch (opcion) {
+                    case 1:
+                        registrarEstudiante(scanner, listaEstudiantes);
+                        break;
 
-                case 2:
-                    mostrarTodosEstudiantes(listaEstudiantes);
-                    break;
+                    case 2:
+                        mostrarTodosEstudiantes(listaEstudiantes);
+                        break;
 
-                case 3:
-                    buscarEstudiante(scanner, listaEstudiantes);
-                    break;
+                    case 3:
+                        buscarEstudiante(scanner, listaEstudiantes);
+                        break;
 
-                case 4:
-                    calcularPromedioGeneral(listaEstudiantes);
-                    break;
+                    case 4:
+                        calcularPromedioGeneral(listaEstudiantes);
+                        break;
 
-                case 5:
-                    System.out.println("\nGracias por usar el sistema. Adios!");
-                    continuar = false;
-                    break;
+                    case 5:
+                        System.out.println("\nGracias por usar el sistema. Adios!");
+                        continuar = false;
+                        break;
 
-                default:
-                    System.out.println("\nOpcion invalida. Intenta de nuevo.\n");
+                    default:
+                        System.out.println("\nOpcion invalida. Intenta de nuevo.\n");
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("\nError: Debes ingresar un numero valido.\n");
+                scanner.nextLine(); // Limpiar el buffer
             }
         }
 
@@ -65,20 +72,43 @@ public class RegistroEstudiantes {
     public static void registrarEstudiante(Scanner scanner, ArrayList<Estudiante> lista) {
         System.out.println("\n--- REGISTRAR NUEVO ESTUDIANTE ---");
 
-        System.out.print("Nombre completo: ");
-        String nombre = scanner.nextLine();
+        try {
+            System.out.print("Nombre completo: ");
+            String nombre = scanner.nextLine();
+            
+            if (nombre.trim().isEmpty()) {
+                System.out.println("\nError: El nombre no puede estar vacio.");
+                return;
+            }
 
-        System.out.print("Edad: ");
-        int edad = scanner.nextInt();
+            System.out.print("Edad: ");
+            int edad = scanner.nextInt();
 
-        System.out.print("Nota (0-20): ");
-        double nota = scanner.nextDouble();
-        scanner.nextLine(); // Limpiar buffer
+            System.out.print("Nota (0-20): ");
+            double nota = scanner.nextDouble();
+            scanner.nextLine(); // Limpiar buffer
 
-        Estudiante nuevoEstudiante = new Estudiante(nombre, edad, nota);
-        lista.add(nuevoEstudiante);
+            // Validar datos antes de crear el estudiante
+            if (edad <= 0 || edad >= 100) {
+                System.out.println("\nError: La edad debe estar entre 1 y 99 años.");
+                return;
+            }
 
-        System.out.println("\nEstudiante registrado exitosamente!");
+            if (nota < 0 || nota > 20) {
+                System.out.println("\nError: La nota debe estar entre 0 y 20.");
+                return;
+            }
+
+            Estudiante nuevoEstudiante = new Estudiante(nombre, edad, nota);
+            lista.add(nuevoEstudiante);
+
+            System.out.println("\n¡Estudiante registrado exitosamente!");
+            nuevoEstudiante.mostrarInfo();
+
+        } catch (InputMismatchException e) {
+            System.out.println("\nError: Datos invalidos. Asegurate de ingresar numeros donde corresponda.");
+            scanner.nextLine(); // Limpiar el buffer
+        }
     }
 
     public static void mostrarTodosEstudiantes(ArrayList<Estudiante> lista) {
@@ -175,7 +205,7 @@ class Estudiante {
     public Estudiante(String nombre, int edad, double nota) {
         this.nombre = nombre;
         this.edad = edad;
-        setNota(nota); // Usar setter para validación
+        this.nota = nota;
     }
 
     // Getters - Métodos para obtener los valores de los atributos
@@ -197,12 +227,16 @@ class Estudiante {
     public void setNombre(String nombre) {
         if (nombre != null && !nombre.trim().isEmpty()) {
             this.nombre = nombre;
+        } else {
+            throw new IllegalArgumentException("El nombre no puede estar vacio");
         }
     }
 
     public void setEdad(int edad) {
         if (edad > 0 && edad < 100) {
             this.edad = edad;
+        } else {
+            throw new IllegalArgumentException("La edad debe estar entre 1 y 99 años");
         }
     }
 
@@ -210,7 +244,7 @@ class Estudiante {
         if (nota >= 0 && nota <= 20) {
             this.nota = nota;
         } else {
-            this.nota = 0; // Valor por defecto si la nota es inválida
+            throw new IllegalArgumentException("La nota debe estar entre 0 y 20");
         }
     }
 
@@ -219,8 +253,8 @@ class Estudiante {
      */
     public void mostrarInfo() {
         System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad + " anos");
-        System.out.println("Nota: " + nota);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Nota: " + String.format("%.2f", nota));
         System.out.println("Estado: " + (aprobo() ? "APROBADO" : "DESAPROBADO"));
     }
 
